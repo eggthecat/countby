@@ -3,4 +3,7 @@ $(document).ready(function(){
   $ ('form').submit(function(event){
     event.preventDefault();
     var count = []
+    for (i=0; i <=30; i+=5) {
+
+    }
   })
