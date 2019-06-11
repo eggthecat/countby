@@ -4,6 +4,7 @@ $(document).ready(function(){
     event.preventDefault();
     var count = []
     for (i=0; i <=30; i+=5) {
-
-    }
-  })
+console.log(i);
+    };
+  });
+});
