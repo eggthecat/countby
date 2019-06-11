@@ -4,7 +4,10 @@ $(document).ready(function(){
     event.preventDefault();
     var count = []
     for (i=0; i <=30; i+=5) {
-console.log(i);
+      console.log(i)
     };
+    for (i=0; i <= 50; i+= 7) {
+      console.log(i)
+    }
   });
 });
