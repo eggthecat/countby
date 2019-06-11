@@ -9,6 +9,8 @@ $(document).ready(function(){
     for (var n = 0; n <= 50; n+= 7) {
       console.log(n)
     }
-    $("ol").append("<li>"+[i] + "</li>")
+    for (var c = 0; c < count.length; c++) {
+      $("ol").append("<li>"+[i] + "</li>")
+        }
   });
 });
