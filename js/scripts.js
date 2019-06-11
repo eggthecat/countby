@@ -3,11 +3,12 @@ $(document).ready(function(){
   $ ('form').submit(function(event){
     event.preventDefault();
     var count = []
-    for (i=0; i <=30; i+=5) {
+    for (var i = 0; i <=  30; i+= 5) {
       console.log(i)
     };
-    for (i=0; i <= 50; i+= 7) {
-      console.log(i)
+    for (var n = 0; n <= 50; n+= 7) {
+      console.log(n)
     }
+    $("ol").append("<li>"+[i] + "</li>")
   });
 });
