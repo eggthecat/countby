@@ -10,7 +10,7 @@ $(document).ready(function(){
       console.log(n)
     }
     for (var c = 0; c < count.length; c++) {
-      $("ol").append("<li>"+[i] + "</li>")
+      $("ol").append("<li>"+ [i] + "</li>")
         }
   });
 });
